@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "KSFeatureSelector: Kolmogorov-Smirnov feature selection for scikit-learn"
+message: "If you use this software, please cite it using these metadata."
+type: software
+authors:
+  - family-names: "Parupudi"
+    given-names: "V Subrahmanya Raghu Ram Kishore"
+    email: pvsrrkishore@gmail.com
+repository-code: "https://github.com/NikolaTesla-007/ksfeatureselector"
+url: "https://pypi.org/project/ksfeatureselector/"
+abstract: >-
+  A scikit-learn compatible feature selector that ranks features by their
+  ability to separate the classes of a binary or multi-class target using the
+  two-sample Kolmogorov-Smirnov (K-S) test, with pairwise and one-vs-rest
+  comparison strategies and Fisher, min, and max p-value aggregation.
+keywords:
+  - feature selection
+  - scikit-learn
+  - kolmogorov-smirnov
+  - machine learning
+  - statistics
+license: MIT
+version: 0.3.0
+date-released: "2026-06-03"
