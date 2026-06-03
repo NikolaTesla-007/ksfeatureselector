@@ -5,7 +5,7 @@
 [![codecov](https://codecov.io/gh/NikolaTesla-007/ksfeatureselector/branch/main/graph/badge.svg)](https://codecov.io/gh/NikolaTesla-007/ksfeatureselector)
 [![Downloads](https://static.pepy.tech/badge/ksfeatureselector)](https://pepy.tech/project/ksfeatureselector)
 [![Python](https://img.shields.io/pypi/pyversions/ksfeatureselector.svg)](https://pypi.org/project/ksfeatureselector/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE)
 
 `KSFeatureSelector` is a scikit-learn compatible feature selector that ranks
 features by how well they separate the classes of a binary or multi-class
@@ -103,7 +103,7 @@ kept (ranked by p-value).
 
 ## License
 
-MIT License — see [LICENSE](LICENSE).
+BSD 3-Clause License — see [LICENSE](LICENSE).
 
 ## Author
 

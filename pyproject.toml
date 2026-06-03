@@ -9,13 +9,13 @@ description = "Scikit-learn compatible feature selection for binary and multi-cl
 authors = [
     { name = "V Subrahmanya Raghu Ram Kishore Parupudi", email = "pvsrrkishore@gmail.com" }
 ]
-license = { text = "MIT" }
+license = { text = "BSD-3-Clause" }
 readme = "README.rst"
 requires-python = ">=3.9"
 keywords = ["feature-selection", "scikit-learn", "kolmogorov-smirnov", "machine-learning", "statistics"]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: BSD License",
     "Operating System :: OS Independent",
     "Intended Audience :: Science/Research",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",

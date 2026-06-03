@@ -90,7 +90,7 @@ are kept (ranked by p-value).
 License
 -------
 
-MIT License.
+BSD 3-Clause License.
 
 Author
 ------
