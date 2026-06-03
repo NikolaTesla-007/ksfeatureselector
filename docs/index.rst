@@ -10,6 +10,7 @@ Kolmogorov-Smirnov (K-S) test.
    :caption: Contents
 
    usage
+   auto_examples/index
    api
 
 Installation

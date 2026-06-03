@@ -20,7 +20,14 @@ extensions = [
     "sphinx.ext.napoleon",  # NumPy-style docstrings
     "sphinx.ext.viewcode",
     "sphinx.ext.intersphinx",
+    "sphinx_gallery.gen_gallery",
 ]
+
+sphinx_gallery_conf = {
+    "examples_dirs": "../examples_gallery",
+    "gallery_dirs": "auto_examples",
+    "filename_pattern": r"plot_",
+}
 
 napoleon_numpy_docstring = True
 napoleon_google_docstring = False

@@ -44,3 +44,15 @@ filterwarnings = [
     "ignore::UserWarning",
     "ignore::RuntimeWarning",
 ]
+
+[tool.ruff]
+line-length = 99
+target-version = "py39"
+
+[tool.ruff.lint]
+# pycodestyle (E), pyflakes (F), isort (I), pyupgrade (UP), bugbear (B)
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+# Sphinx-Gallery example scripts use mid-file imports between narrative cells.
+"examples_gallery/*" = ["E402", "I001"]

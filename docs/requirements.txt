@@ -1,2 +1,4 @@
 sphinx>=7.0
 furo>=2024.1.29
+sphinx-gallery>=0.15
+matplotlib>=3.5

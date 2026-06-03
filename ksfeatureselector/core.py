@@ -14,12 +14,11 @@ directly into :class:`~sklearn.pipeline.Pipeline` and
 :class:`~sklearn.model_selection.GridSearchCV`.
 """
 
-from itertools import combinations
 import warnings
+from itertools import combinations
 
 import numpy as np
 from scipy import stats
-
 from sklearn.base import BaseEstimator
 from sklearn.feature_selection import SelectorMixin
 from sklearn.utils.validation import check_is_fitted, validate_data
@@ -259,6 +258,7 @@ class KSFeatureSelector(SelectorMixin, BaseEstimator):
                     f"recommended minimum of {self._MIN_OBS_PER_CATEGORY_WARNING} "
                     "for reliable K-S test results.",
                     UserWarning,
+                    stacklevel=2,
                 )
 
         names = self._feature_names()

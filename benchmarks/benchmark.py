@@ -15,14 +15,12 @@ PNG per dataset under benchmarks/.
 
 import warnings
 
-import numpy as np
 import pandas as pd
-
 from sklearn.datasets import (
     fetch_openml,
     load_breast_cancer,
-    load_wine,
     load_digits,
+    load_wine,
 )
 from sklearn.feature_selection import (
     SelectKBest,

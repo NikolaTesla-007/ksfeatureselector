@@ -1,9 +1,8 @@
 import numpy as np
 import pandas as pd
 import pytest
-
-from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import Pipeline
 from sklearn.utils.estimator_checks import check_estimator
 
 from ksfeatureselector import KSFeatureSelector, select_ks_features, sort_tuple

@@ -39,6 +39,8 @@ notes/
 
 # Sphinx build output
 docs/_build/
+docs/auto_examples/
+docs/sg_execution_times.rst
 
 # Local drafts (not published)
 paper/
