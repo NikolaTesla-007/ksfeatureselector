@@ -37,6 +37,12 @@ ENV/
 # Private planning notes (not for publishing)
 notes/
 
+# Sphinx build output
+docs/_build/
+
+# Local drafts (not published)
+paper/
+
 # Type checkers / linters
 .mypy_cache/
 .ruff_cache/

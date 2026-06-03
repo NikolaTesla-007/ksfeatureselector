@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/NikolaTesla-007/ksfeatureselector/actions/workflows/ci.yml/badge.svg)](https://github.com/NikolaTesla-007/ksfeatureselector/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/ksfeatureselector.svg)](https://pypi.org/project/ksfeatureselector/)
+[![codecov](https://codecov.io/gh/NikolaTesla-007/ksfeatureselector/branch/main/graph/badge.svg)](https://codecov.io/gh/NikolaTesla-007/ksfeatureselector)
 [![Downloads](https://static.pepy.tech/badge/ksfeatureselector)](https://pepy.tech/project/ksfeatureselector)
 [![Python](https://img.shields.io/pypi/pyversions/ksfeatureselector.svg)](https://pypi.org/project/ksfeatureselector/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
