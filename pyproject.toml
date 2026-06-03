@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ksfeatureselector"
+version = "0.3.0"
+description = "Scikit-learn compatible feature selection for binary and multi-class classification using the Kolmogorov-Smirnov (K-S) test, with pairwise / one-vs-rest comparison and Fisher / min / max p-value aggregation."
+authors = [
+    { name = "V Subrahmanya Raghu Ram Kishore Parupudi", email = "pvsrrkishore@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.rst"
+requires-python = ">=3.9"
+keywords = ["feature-selection", "scikit-learn", "kolmogorov-smirnov", "machine-learning", "statistics"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "scikit-learn>=1.6",
+    "pandas>=1.3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/NikolaTesla-007/ksfeatureselector"
+Repository = "https://github.com/NikolaTesla-007/ksfeatureselector"
+Issues = "https://github.com/NikolaTesla-007/ksfeatureselector/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ksfeatureselector*"]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::UserWarning",
+    "ignore::RuntimeWarning",
+]
